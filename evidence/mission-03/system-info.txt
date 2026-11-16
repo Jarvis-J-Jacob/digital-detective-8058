@@ -1,0 +1,21 @@
+=== sw_vers ===
+ProductName:        macOS
+ProductVersion:     27.2
+BuildVersion:       26B123
+
+=== uname -srm ===
+Darwin 27.2.0 arm64
+
+=== whoami ===
+[redacted]
+
+=== df -h (main container only; installer volumes omitted) ===
+Filesystem        Size    Used   Avail Capacity  Mounted on
+/dev/disk3s1s1   926Gi    13Gi   626Gi     3%     /
+/dev/disk3s5     926Gi   261Gi   626Gi    30%     /System/Volumes/Data
+
+=== top -l 1 -n 10 (first 10 lines) ===
+Processes: 847 total, 3 running, 844 sleeping, 4284 threads
+Load Avg: 1.47, 2.05, 2.54
+CPU usage: 2.25% user, 6.59% sys, 91.15% idle
+PhysMem: 19G used (3624M wired, 4954M compressor), 4406M unused.

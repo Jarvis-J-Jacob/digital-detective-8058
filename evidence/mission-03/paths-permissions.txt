@@ -1,0 +1,28 @@
+=== 1. Absolute path at repo root ===
+/Users/[redacted]/Downloads/SNAI/digital-detective-8058
+
+=== 2. Move into mission-03 ===
+/Users/[redacted]/Downloads/SNAI/digital-detective-8058/mission-03-operating-system
+
+=== 3. Relative jump to parent (cd ..) ===
+/Users/[redacted]/Downloads/SNAI/digital-detective-8058
+
+=== 4. Relative jump back in (cd mission-03-operating-system) ===
+/Users/[redacted]/Downloads/SNAI/digital-detective-8058/mission-03-operating-system
+
+=== 5. Create practice file ===
+echo "permission practice" > practice.txt
+
+=== 6. Detailed listing (ls -l) ===
+total 24
+-rw-r--r--@ 1 [redacted]  staff  2971 16 Nov 09:39 notes.md
+-rw-r--r--  1 [redacted]  staff    20 17 Nov 00:43 practice.txt
+-rw-r--r--@ 1 [redacted]  staff  1476 16 Nov 09:39 README.md
+
+=== 7. Detailed listing with hidden files (ls -la) ===
+total 24
+drwxr-xr-x@  5 [redacted]  staff   160 17 Nov 00:43 .
+drwxr-xr-x@ 16 [redacted]  staff   512 16 Nov 09:37 ..
+-rw-r--r--@  1 [redacted]  staff  2971 16 Nov 09:39 notes.md
+-rw-r--r--  1 [redacted]  staff    20 17 Nov 00:43 practice.txt
+-rw-r--r--@  1 [redacted]  staff  1476 16 Nov 09:39 README.md

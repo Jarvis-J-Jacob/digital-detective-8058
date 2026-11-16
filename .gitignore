@@ -1,1 +1,4 @@
 .DS_Store
+
+# Obsidian workspace (personal tooling, not part of assignment)
+.obsidian/
