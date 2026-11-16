@@ -45,4 +45,4 @@ I moved the terminal-practice folder into mission-02-terminal so the work stays 
 
 Commit message: Complete Terminal and file management mission
 
-Pushed to GitHub: yes / no
+Pushed to GitHub: yes
