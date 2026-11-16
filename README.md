@@ -27,3 +27,15 @@ Privacy-safe screenshots and outputs are kept in [evidence/](evidence/).
 ## How this repository is organised
 
 Each mission lives in its own folder with its own README. Missions are completed in order, and each one is documented, committed and pushed separately before the next one begins.
+
+## My Learning
+
+1. The Terminal and Git workflow I now use confidently: `git status` before anything,
+   `git add` only the intended files, then `git commit` with a message that matches
+   what is actually in the commit.
+2. How an operating system really works — that `launchd` starts every other process,
+   that `ps` shows PIDs and owners, and that permission bits like `rw-r--r--` mean
+   owner, group and everyone else each have their own read/write/execute rights.
+3. Why absolute vs relative paths matter in the shell: `pwd` shows where I am, and
+   `cd ../folder` only works because `.` and `..` are relative to that spot — it is
+   what makes the same command behave differently depending on context.
