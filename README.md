@@ -1,5 +1,11 @@
 # The Digital Detective
 
+Name: [EMPTY]
+
+USN: [EMPTY]
+
+Campus / Section: [EMPTY]
+
 Diwali Independent Learning Assignment: exploring how a computer works, from hardware and the Terminal to the operating system, number systems, Git and networking. The assignment ends with a mini system report.
 
 ## Mission index
