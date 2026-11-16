@@ -1,0 +1,22 @@
+=== ping -c 5 example.com ===
+PING example.com (104.20.23.154): 56 data bytes
+64 bytes from 104.20.23.154: icmp_seq=0 ttl=58 time=8.767 ms
+64 bytes from 104.20.23.154: icmp_seq=1 ttl=58 time=13.050 ms
+64 bytes from 104.20.23.154: icmp_seq=2 ttl=58 time=13.964 ms
+64 bytes from 104.20.23.154: icmp_seq=3 ttl=58 time=5.563 ms
+64 bytes from 104.20.23.154: icmp_seq=4 ttl=58 time=7.692 ms
+
+--- example.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.563/9.807/13.964/3.205 ms
+
+=== nslookup example.com ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	example.com
+Address: 104.20.23.154
+Name:	example.com
+Address: 172.66.147.243
+
